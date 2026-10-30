@@ -1,0 +1,199 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #171b1c;
+    color: #e8e8e4;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 23px;
+}
+
+h4 {
+    color: #b7d5c4;
+    font-size: 17px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #b7d5c4;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar-inverse {
+    background-color: #101414;
+    border: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e8e8e4;
+    font-size: 13px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #b7d5c4;
+}
+
+.page-topper {
+    background-color: #23352e;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.page-topper h1 {
+    color: #ffffff;
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.page-topper h2 {
+    color: #b7d5c4;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.page-topper p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #3b4440;
+    scroll-margin-top: 60px;
+}
+
+.section-title {
+    color: #b7d5c4;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+.experience-item {
+    margin-bottom: 35px;
+}
+
+.experience-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.experience-item h4 {
+    margin-bottom: 15px;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+}
+
+.experience-item li {
+    margin-bottom: 8px;
+}
+
+.date {
+    color: #b7d5c4;
+    font-size: 14px;
+    text-align: right;
+} 
+
+.publication-list {
+    padding-left: 20px;
+}
+
+.publication-list li {
+    margin-bottom: 12px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item h3 {
+    margin-top: 0;
+}
+
+#skills h3 {
+    color: #b7d5c4;
+    font-size: 22px;
+}
+
+#contact a {
+    color: #b7d5c4;
+}
+
+.social-links {
+    padding-left: 20px;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #101414;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #b7d5c4;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+
+    .page-topper {
+        padding: 70px 15px;
+    }
+
+    .page-topper h1 {
+        font-size: 42px;
+    }
+
+    .page-topper h2 {
+        font-size: 22px;
+    }
+
+    .page-topper p {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .date {
+        text-align: left;
+    }
+
+}
